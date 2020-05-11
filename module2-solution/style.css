@@ -1,0 +1,71 @@
+ * {
+  box-sizing: border-box;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+ 
+.t1{
+  float:right;
+  border:3px solid black;
+  background-color: green;
+  padding: 3px;
+  position: relative;
+  top:-25px;
+  right:-10px;
+}
+.t2{
+  clear: right;
+}
+.aa {
+  border: 1px solid black;
+  background-color: #A52A2A;
+  width: 90%;
+  
+  padding: 10px;
+  margin:auto;
+  margin-top:20px;
+  font-family: Helvetica;
+  color: white;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+  @media (min-width: 992px) {
+        .a1{ float:left; 
+          margin:auto;
+        }
+        .a1{
+          width:33%;
+          float:left;
+        }
+      }
+      @media (min-width: 768px) and (max-width: 991px) {
+        .a2{ float:left; 
+        }
+        .a2{
+          width:50%;
+          margin:auto;
+        }
+        .a4{
+          width:100%;
+          
+         
+        }
+        .a4>.aa{
+          width:95%;
+
+        }
+      }
+      @media (max-width: 767px) {
+        .a3{ float:left; 
+         }
+        .a3{
+          width:100%;
+
+        }
+      }
